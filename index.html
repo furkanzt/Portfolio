@@ -1,50 +1,179 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Mustafa Furkan Özateş Portfolio</title>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>furkan zt - portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <h1>Mustafa Furkan Özateş Portfolio</h1>
-            <nav>
-                <a class="button" href="contact.html">Contact</a>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2>Projects</h2>
-                <h3>Python</h3>
-                <ul>
-                    <li><a href="https://github.com/swixtop/StudentScoreSystem">Student Score System</a></li>
-                    <li><a href="https://github.com/swixtop/TreasureHunt">Treasure Hunt Game</a></li>
-                    <li><a href="https://github.com/swixtop/WordGuessing">Word Guessing</a></li>
-                    <li><a href="https://colab.research.google.com/drive/19M0kh3ioqUYUx_QvfekIYFYuPy5Oq46l?usp=sharing">CEIT418</a></li>
-                </ul>
-                <h3>Java</h3>
-                <ul>
-                    <li><a href="https://github.com/swixtop/QuizForm">Quiz Form</a></li>
-                </ul>
-                <h3>Blender</h3>
-                <ul>
-                    <li><a href="https://1028f8d26f624cd18d39-my.sharepoint.com/:v:/g/personal/furkan_ozates_metu_edu_tr/Eac6yYixKoZMlSR823C38k0BRfIdkCEvmEeS7Bo_JqhErA?e=jClfle">Library Animation</a></li>
-                </ul>
-                <h3>Multimedia Design and Development</h3>
-                <ul>
-                    <li><a href="https://swixtop.github.io/DijitalVatandaslik_AktifKatilim/story.html">Active Participation on Digital Citizenship</a></li>
-                </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; 2024 Mustafa Furkan Özateş</p>
-        </footer>
-    </div>
-    <script src="script.js"></script>
-</body>
+    <header>
+        <nav>
+            <ul>
+                <li class="nav-brand"><a href="index.html">furkan zt</a></li>
+                <li><a href="#career-goals">Career Goals</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="career-goals">
+            <h1>Career Goals</h1>
+            <div class="career-content">
+                <img src="pictures/ai-education.png" alt="AI in Education" class="section-image">
+                <p>My goal is to leverage my passion for technology and education to drive innovation in the fields of artificial intelligence and instructional technology. I aim to contribute to research and development in AI, focusing on deep learning and its practical applications in education. As the president of the AI Society at my university, I am dedicated to fostering a collaborative environment for learning and growth, while also preparing for a master's program that will allow me to deepen my expertise. Ultimately, I aspire to bridge the gap between cutting-edge AI technologies and effective educational tools, creating impactful solutions that can enhance learning experiences globally.</p>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="pictures/web-scraping-assistant.png" alt="Web Scraping Project">
+                    <h3>Web Scraping Assistant</h3>
+                    <p>Developed a Python-based web scraping tool using Beautiful Soup that automates data collection from educational websites. Features include automated navigation, data extraction, and CSV export functionality.</p>
+                    <div class="project-tech">
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Beautiful Soup</span>
+                        <span class="skill-badge">CSV</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="pictures/educational-data-analysis.png" alt="Data Analysis Project">
+                    <h3>Educational Data Analysis</h3>
+                    <p>Created a comprehensive data analysis pipeline using Pandas to process and analyze student performance data. Implemented visualization tools to track learning outcomes and identify areas for improvement.</p>
+                    <div class="project-tech">
+                        <span class="skill-badge">Pandas</span>
+                        <span class="skill-badge">Matplotlib</span>
+                        <span class="skill-badge">Data Analysis</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="pictures/automated-testing-framework.png" alt="Testing Framework Project">
+                    <h3>Automated Testing Framework</h3>
+                    <p>Built an automated testing framework using Selenium for educational platforms. Implemented test cases for user authentication, content delivery, and student progress tracking.</p>
+                    <div class="project-tech">
+                        <span class="skill-badge">Selenium</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Testing</span>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="pictures/learning-analytics-dashboard.png" alt="Analytics Dashboard Project">
+                    <h3>Learning Analytics Dashboard</h3>
+                    <p>Developed an automated system that collects student interaction data and updates Google Sheets in real-time. Features include performance metrics, engagement tracking, and automated reporting.</p>
+                    <div class="project-tech">
+                        <span class="skill-badge">Google API</span>
+                        <span class="skill-badge">Python</span>
+                        <span class="skill-badge">Analytics</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="pictures/furkanvesikalik.png" alt="Mustafa Furkan Özateş profile-image" class="profile-image">
+                <p>As a senior Computer Education and Instructional Technology (CEIT) student at Middle East Technical University, I combine my passion for mathematics with cutting-edge educational technology. My academic journey has been marked by a deep interest in statistical applications in education and the development of innovative instructional tools.</p>
+                <p>Currently serving as the president of the AI Society, I lead initiatives to promote artificial intelligence education and research among students. My experience includes organizing workshops, managing project teams, and facilitating collaboration between students and faculty.</p>
+                <p>Outside of academics, I actively participate in educational technology conferences and contribute to open-source projects focused on learning analytics and AI in education.</p>
+            </div>
+            
+            <div class="education-section">
+                <h3>Education</h3>
+                <div class="table-container">
+                    <table class="education-table">
+                        <thead>
+                            <tr>
+                                <th>Degree</th>
+                                <th>Institution</th>
+                                <th>Years</th>
+                                <th>GPA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-label="Degree">B.S. CEIT</td>
+                                <td data-label="Institution">Middle East Technical University</td>
+                                <td data-label="Years">2020 – 2025</td>
+                                <td data-label="GPA">3.67/4.00</td>
+                            </tr>
+                            <tr>
+                                <td data-label="Degree">High School</td>
+                                <td data-label="Institution">Hürriyet Anatolian High School</td>
+                                <td data-label="Years">2013 – 2017</td>
+                                <td data-label="GPA">I have no idea right now</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <aside id="skills">
+            <h2>Skills</h2>
+            <div class="skills-content">
+                <img src="pictures/skills.png" alt="Technology Skills" class="section-image">
+                <div class="skills-list">
+                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Pandas</span>
+                    <span class="skill-badge">Data Analysis</span>
+                    <span class="skill-badge">Machine Learning</span>
+                    <span class="skill-badge">Prompt Engineering</span>
+                    <span class="skill-badge">Beautiful Soup</span>
+                    <span class="skill-badge">Selenium</span>
+                    <span class="skill-badge">Google API</span>
+                    <span class="skill-badge">Statistical Analysis</span>
+                    <span class="skill-badge">Educational Technology</span>
+                    <span class="skill-badge">Project Management</span>
+                    <span class="skill-badge">Team Leadership</span>
+                </div>
+            </div>
+        </aside>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="Enter message subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://linkedin.com/in/furkanzt" target="_blank" aria-label="LinkedIn Profile">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/furkanzt" target="_blank" aria-label="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>Mustafa Furkan Özateş © 2024</p>
+        </div>
+    </footer>
+</body>
 </html>
